@@ -67,6 +67,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  height: 5px;
   background-color: rgba(247, 193, 162, 0.7);
 }
 
@@ -114,16 +115,7 @@ footer ul {
     background-color: rgba(247, 136, 167, 0.6);
     position: absolute;
     right: 100px;
-  }
-
-  #medium-circle {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: rgba(247, 193, 162, 0.7);
-    position: absolute;
-    right: 10px;
-    top: 150px;
+    top: 0px;
   }
 
   #small-circle {
@@ -132,7 +124,17 @@ footer ul {
     border-radius: 50%;
     background-color: rgba(207, 130, 213, 0.6);
     position: absolute;
-    right: 10px;
-    top: 40px;
+    right: 0px;
+    top: 50px;
+  }
+
+  #medium-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    right: 0px;
+    top: 150px;
   }
 }
